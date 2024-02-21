@@ -1,0 +1,117 @@
+
+        body {
+            background-color: rgb(240, 242, 245);
+        }
+        #face {
+            margin-left: 270px;
+            margin-top: 200px;
+            float: left;
+        }
+        #help {
+            font-size: 23px;
+            padding-top: 70px;
+            padding-left: 23px;
+        }
+        #flogo {
+            position: absolute;
+        }
+        #login {
+            float: right;
+            border: 1px solid gray;
+            height: 320px;
+            width: 320px;
+            margin-right: 355px;
+            margin-top: 170px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+        }
+        #email {
+            width: 100%;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-shadow: inset 0 1px 3px #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            webkit-box-sizing: border-box;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+        }
+        #password {
+            width: 100%;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            box-shadow: inset 0 1px 3px #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+
+        }
+        #enter {
+            margin-top: 12px;
+            background-color: #1877f2;
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 46px;
+            padding: 0 16px;
+            width: 100%;
+            color: white;
+            cursor: pointer;
+        }
+        .elements {
+            padding: 10px;
+        }
+        #forgot {
+            text-decoration: none;
+            color: #1877f2;
+            direction: ltr;
+            display: block;
+            font-size: 12px;
+            height: 18.7578px;
+            line-height: 16.08px;
+            margin-top: 16px;
+            text-align: center;
+        }
+        #create {
+            margin-left: 60px;
+            display: block;
+            width: 60%;
+            color: white;
+            background-color: #42B72AFF;
+            border: none;
+            font-size: 17px;
+            height: 40px;
+            border-radius: 6px;
+        }
+        #bottomBorder {
+            align-items: center;
+            border-bottom: 1px solid #dadde1;
+            display: flex;
+            margin: 20px 1px;
+            text-align: center;
+        }
+        #createArtistic {
+            position: absolute;
+            margin-top: 35%;
+            margin-left: 52%;
+            /*padding: 10px;*/
+            font-size: 15px;
+            width: 22%;
+            /*border: 1px solid black;*/
+            text-align: center;
+            font-family: 'Helvetica', 'sans-serif';
+        }
+        #crArt {
+            font-family: 'Helvetica', 'sans-serif';
+            font-size: inherit;
+            text-decoration: none;
+            color: black;
+        }

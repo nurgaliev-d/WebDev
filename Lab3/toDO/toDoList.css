@@ -1,0 +1,124 @@
+#list {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", "sans-serif";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+.box {
+    position: relative;
+    border-radius: 30px;
+    width: 900px;
+    height: 700px;
+    background: #ffffff;
+    padding: 30px 50px;
+}
+h2 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.7em;
+    color: black;
+    margin-bottom: 20px;
+}
+#inBox {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 15px 25px 0;
+    border-radius: 4px;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    2px 2px 3px rgba(0, 0, 0, 0.5),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+.box li {
+    position: relative;
+    display: flex;
+    width: calc(100% - 100px);
+    align-items: center;
+    background: #ffffff;
+    margin: 15px 0;
+    padding: 10px 10px 10px 45px;
+    min-height: 35px;
+    cursor: pointer;
+    border-radius: 32px;
+    color: black;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    2px 2px 5px rgba(0, 0, 0, 0.5),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+    word-wrap: anywhere;
+}
+
+.box li i {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: crimson;
+    right: -40px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25),
+    2px 2px 5px rgba(255, 255, 255, 0.25),
+    inset -3px -3px 5px rgba(0, 0, 0, 0.5);
+}
+.box li i::before {
+    margin-top: 14px;
+    margin-left: 7px;
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: #ffffff;
+    transform: rotate(45deg);
+}
+.box li i::after {
+    margin-top: 14px;
+    margin-left: 7px;
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: #ffffff;
+    transform: rotate(-45deg);
+}
+.box li::before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    width: 25px;
+    height: 25px;
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+.box li.done {
+     background: #1f83f2;
+    color: black;
+}
+.box li.done::after {
+    content: "";
+    position: absolute;
+    left: 14px;
+    margin-bottom: 4px;
+    width: 16px;
+    height: 6px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    background: #ffffff;
+    transform: rotate(-45deg);
+}
+#list {
+    position: relative;
+    word-wrap: break-word;
+    margin-top: 20px;
+    height: 350px;
+    overflow-y: auto;
+    padding-right: 10px;
+}

@@ -1,0 +1,222 @@
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+        body {
+            background-color: #eee;
+        }
+
+        #wrapper {
+            position: relative;
+            width: 500px;
+            height: 50%;
+            overflow: hidden;
+            border: 0px solid #000;
+            margin: 50px auto;
+            padding: 10px;
+            margin-left: 620px;
+        }
+
+        .content {
+            width: 250px;
+            height: 40%;
+            margin: 10px auto;
+            background-color: #fff;
+            border: 2px solid #e6e6e6;
+            padding: 40px 50px;
+        }
+
+        .header {
+            border: 0px solid #000;
+            margin-bottom: 5px;
+        }
+
+        .header img {
+            height: 50px;
+            width: 175px;
+            margin: auto;
+            position: relative;
+            left: 40px;
+        }
+
+        .username,
+        .password {
+            width: 100%;
+            margin-bottom: 5px;
+            padding: 8px 12px;
+            border: 1px solid #dbdbdb;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
+
+        .otext {
+            position: relative;
+        }
+
+        .otext a {
+            position: absolute;
+            top: 8px;
+            right: 10px;
+            color: #003569;
+            font-size: 14px;
+            text-decoration: none;
+            font-family: 'Overpass Mono', monospace;
+            letter-spacing: -1px;
+        }
+
+        .btn {
+            width: 100%;
+            background-color: #3897f0;
+            border: 1px solid #3897f0;
+            padding: 5px 12px;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .sub-content {
+            width: 250px;
+            height: 40%;
+            margin: 10px auto;
+            border: 1px solid #e6e6e6;
+            padding: 20px 50px;
+            background-color: #fff;
+        }
+
+        .s-part {
+            text-align: center;
+            font-family: 'Helvetica', sans-serif;
+            word-spacing: -3px;
+            letter-spacing: 0px;
+            font-weight: normal;
+        }
+
+        .s-part a {
+            margin-left: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            color: #3897f0;
+            font-family: 'Helvetica', sans-serif;
+            word-spacing: -3px;
+            letter-spacing: 0px;
+            font-weight: normal;
+        }
+        input:focus {
+
+        }
+        .youtube{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            width: 160px;
+            text-align: center;
+            padding: 15px 10px;
+            background: #bb0000;
+            border-radius: 5px;
+        }
+
+        .youtube a{
+            text-decoration: none;
+            color: #fff;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+        #forgot {
+            position: absolute;
+            margin-top: 8px;
+            margin-left: 65px;
+            color: #3b5998;
+        }
+        #flogo {
+
+            margin-top: 55px;
+            margin-left: 39px;
+        }
+        .bottomBorder {
+            position: absolute;
+            align-items: center;
+            border-bottom: 1px solid #dadde1;
+            display: flex;
+            margin: 20px 1px;
+            text-align: center;
+            width: 100px;
+        }
+        .right {
+            margin-left: 148px;
+        }
+        #or {
+            margin: 12px;
+            position: absolute;
+            margin-left: 111px;
+            margin-bottom: 30px;
+            color: gray;
+            font-family: sans-serif;
+            font-size: small;
+            font-weight: bold;
+        }
+        #getApp {
+            position: absolute;
+            margin: -56px;
+            margin-left: 680px;
+
+        }
+        #ios {
+            position: absolute;
+            margin: -20px;
+            margin-left: 565px;
+        }
+        #android {
+            position: absolute;
+            margin: -20px;
+            margin-left: 730px;
+        }
+        #maket {
+            float: left;
+            position: absolute;
+            margin-left: 310px;
+            margin-top: 20px;
+
+        }
+        #below {
+            margin-left: 163px;
+        }
+        #screen {
+            float: left;
+            position: absolute;
+            margin-left: 440px;
+            margin-top: 40px;
+        }
+        #also {
+            position: absolute;
+            margin-top: 8em;
+            color: grey;
+            font-family: 'Helvetica', 'sans-serif';
+            font-size: 13px;
+            margin-left: 320px;
+        }
+        .items {
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        #lang {
+            position: absolute;
+            margin-top: 10.5em;
+            color: grey;
+            font-family: 'Helvetica', 'sans-serif';
+            font-size: 13px;
+            margin-left: 603px;
+        }
+        #language {
+            border: none;
+            background-color: inherit;
+            color: grey;
+        }
+
+    

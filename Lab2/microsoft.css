@@ -1,0 +1,161 @@
+
+        .items {
+            font-family: 'Helvetica', 'sans-serif';
+            padding: 10px;
+            text-decoration: none;
+            color: black;
+        }
+        #above {
+            /*border: 1px solid black;*/
+            position: absolute;
+            width: auto;
+            margin-top: 12px;
+            margin-left: 205px;
+        }
+        #second {
+            /*border: 1px solid black;*/
+            position: absolute;
+            width: auto;
+            margin-top: 12px;
+            margin-left: 65%;
+        }
+        #microsoft {
+            position: absolute;
+            margin-left: 85px;
+            margin-top: 9px;
+        }
+        #select {
+            margin-right: 10px;
+        }
+        #searchImg {
+            position: absolute;
+            width: 25px;
+        }
+        #searchText {
+            font-family: 'Helvetica', 'sans-serif';
+            text-decoration: none;
+            color: black;
+            padding-left: 10px;
+        }
+        #loginText {
+            font-family: 'Helvetica', 'sans-serif';
+            margin-left: 35px;
+            padding-left: 10px;
+        }
+        #loginImg {
+            position: absolute;
+            width: 23px;
+            margin-left: 10px;
+        }
+        #background1 {
+            position: absolute;
+            margin-top: 50px;
+        }
+        #infoLabel1 {
+            position: absolute;
+            margin-top: 150px;
+            color: white;
+            font-size: 35px;
+            font-weight: normal;
+            font-family: 'Helvetica', 'sans-serif';
+        }
+        #infoLabel2 {
+            position: absolute;
+            margin-top: 250px;
+            color: white;
+            font-weight: lighter;
+            font-size: 1.1em;
+            font-family: 'Helvetica', 'sans-serif';
+            line-height: 1.5;
+        }
+        #info {
+            width: auto;
+            margin-left: 115px;
+        }
+        #testButton {
+            font-family: 'Helvetica', 'sans-serif';
+            position: absolute;
+            margin-top: 355px;
+            height: 45px;
+            width: auto;
+            color: white;
+            background-color: #0067b8;
+            border: none;
+            font-size: 16px;
+        }
+        #services {
+            width: 95%;
+            margin: auto;
+        }
+        #edge {
+            position: absolute;
+            margin-top: 550px;
+        }
+        #oneDrive {
+            position: absolute;
+            margin-top: 550px;
+            margin-left: 350px;
+        }
+        #oneNote {
+            position: absolute;
+            margin-top: 550px;
+            margin-left: 700px;
+        }
+        #outlook {
+            position: absolute;
+            margin-top: 550px;
+            margin-left: 1050px;
+        }
+        .labels {
+            position: absolute;
+            margin-top: 180px;
+            /*border: 1px solid black;*/
+            font-size: 25px;
+            font-family: 'Helvetica', 'sans-serif';
+            font-weight: bold;
+            width: 300px;
+        }
+        .imgs {
+            position: absolute;
+        }
+        p {
+            position: absolute;
+            margin-top: 225px;
+            /*border: 1px solid black;*/
+            width: 300px;
+            font-family: 'Helvetica', 'sans-serif';
+            font-size: 15px;
+        }
+        #pOutlook {
+            margin-top: 255px;
+        }
+
+        #aEdge {
+            position: absolute;
+            font-size: larger;
+            color: #0067b8;
+            margin-top: 310px;
+            text-decoration: none;
+        }
+        #aOneDrive {
+            position: absolute;
+            font-size: larger;
+            color: #0067b8;
+            margin-top: 295px;
+            text-decoration: none;
+        }
+        #aOneNote {
+            position: absolute;
+            font-size: larger;
+            color: #0067b8;
+            margin-top: 275px;
+            text-decoration: none;
+            width: 300px;
+        }
+        #aOutlook {
+            position: absolute;
+            font-size: larger;
+            color: #0067b8;
+            margin-top: 303px;
+            text-decoration: none;
+        }
