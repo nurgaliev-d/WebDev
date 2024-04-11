@@ -1,0 +1,11 @@
+<h1>HeadHunter!</h1>
+<nav>
+  <a routerLink="/companies" routerLinkActive="active" onclick="refreshPage()">Companies</a>
+  <a routerLink="/vacancies" routerLinkActive="active" onclick="refreshPage()">Vacancies</a>
+</nav>
+<script>
+  function refreshPage() {
+    location.reload();
+  }
+</script>
+<router-outlet></router-outlet>
